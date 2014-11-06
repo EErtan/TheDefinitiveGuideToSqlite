@@ -4,5 +4,8 @@
     <string name="app_name">TheDefinitiveGuideToSqlite</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_seinfeld">Seinfeld</string>
+	<string name="hello">hello</string>
+	<string name="no_foods">no foods</string>
 
 </resources>

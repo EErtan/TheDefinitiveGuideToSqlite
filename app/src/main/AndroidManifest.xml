@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.nullcognition.thedefinitiveguidetosqlite.Seinfeld"
+            android:label="@string/title_activity_seinfeld" >
+        </activity>
     </application>
 
 </manifest>

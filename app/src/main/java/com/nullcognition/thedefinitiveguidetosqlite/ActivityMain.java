@@ -13,7 +13,11 @@ public class ActivityMain extends Activity {
 	super.onCreate(savedInstanceState);
 	setContentView(R.layout.activity_main);
 
-	createDB(); // creating database should be off the main thread
+	android.content.Intent sein = new android.content.Intent(this, Seinfeld.class);
+	sein.putExtra("sein", "value");
+	startActivity(sein);
+	
+	//createDB(); // creating database should be off the main thread
 
 
 	// SQLiteQueryBuilder also protects against injection attacks
