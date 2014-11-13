@@ -28,7 +28,7 @@ public class ActivityMain extends Activity {
 	// public void setTables (String inTables) // takes in inTables = "table1, table2, table3";
   }
 
-  private void createDB(){
+  private void createDB(){ // quick create
 	SQLiteOpenHelperClass mySeinfeldDBHelper;
 	mySeinfeldDBHelper = new SQLiteOpenHelperClass(this);
 	try{
